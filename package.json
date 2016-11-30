@@ -1,14 +1,14 @@
 {
-  "name": "node-edmunds-api",
-  "version": "0.0.0",
-  "description": "Node.js client for the Edmunds public API",
+  "name": "@drivemotors/node-edmunds-api",
+  "version": "1.0.0",
+  "description": "Node.js client for the Edmunds public API (with Drivemotors changes)",
   "main": "lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --timeout 5000 test/**/*.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rfink/node-edmunds-api.git"
+    "url": "https://github.com/DriveMotors/node-edmunds-api.git"
   },
   "keywords": [
     "edmunds",
@@ -21,9 +21,9 @@
   "author": "Ryan Fink <ryanjfink@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rfink/node-edmunds-api/issues"
+    "url": "https://github.com/DriveMotors/node-edmunds-api/issues"
   },
-  "homepage": "https://github.com/rfink/node-edmunds-api",
+  "homepage": "https://github.com/DriveMotors/node-edmunds-api",
   "dependencies": {
     "superagent": "^0.18.0",
     "underscore": "^1.6.0"
